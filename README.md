@@ -90,7 +90,57 @@ NOTE:-  Confidence indicates the direction of the cross-selling.
 
 ## Dax Formula used in creating new measures and new table From Grocery Table.
 
+To create a new table from a grocery table we will select new table from Home tab.
 ![image](https://github.com/user-attachments/assets/6ddf368e-96f3-435c-9a05-2251c4aecc98)
+
+To create total transactions in Grocery table:- 
+![image](https://github.com/user-attachments/assets/b0d83d95-fabf-41da-91db-8e95372b8d48)
+
+To create total product count in the grocery table:-
+![image](https://github.com/user-attachments/assets/c24e7c1b-0856-45f0-af33-b4b83be9d47e)
+
+New table named Basket Analysis Dax Measures:-
+Calculating Support:
+![image](https://github.com/user-attachments/assets/fb51398c-0ac6-4127-a8ba-0258313b416c)
+
+Calculating Confidence: for product 1
+![image](https://github.com/user-attachments/assets/c5b7fd73-846e-4c5c-83ef-979f17d1c3ca)
+
+Calculating Confidence: for product2
+![image](https://github.com/user-attachments/assets/b1969425-7a00-45b8-bfcb-472a46b45832)
+
+Calculating Lift:
+![image](https://github.com/user-attachments/assets/d2938bc5-13f4-474c-8ace-112b36e9e291)
+
+Creating Basket:
+![image](https://github.com/user-attachments/assets/1004a299-5e19-4566-a2d8-101af8f95d05)
+
+
+Power BI Report on Basket Analysis Snapshot:
+
+![image](https://github.com/user-attachments/assets/041b0276-646f-495b-bb6d-fd5f0dd990e5)
+
+Visualisation used in Power bi report:
+-Two cards to view Total Transactions and Total Products
+-Advance network visual to visualize product 1 and product2 in the nodes and in measure we will use Sum of lifts.
+.Add some filters based on lift value . Sum of lift choose is greater than [2.2]
+.Add Support Basket in the filter section and select option is greater than .6%
+
+- Scatter plot
+Add Basket in values, X-axis will be Sum of lift, Y-axis will be Sum of Support Basket.
+.Add filter , sum of lift - select option: is greater than 2.2 and  Sum of Support Basket- select option- is greater than .6% and Format the scatter plot label on.
+
+-Matrix visual
+Add Basket in rows and in the values:Sum of Support basket,sum of confidence of product1,sum of confidence of product 2,sum of lift
+.Add filter 
+Sum of lift -  select is greater than option - 2.2
+Sum of Support Basket - select is greater than option- 0.6%
+
+
+
+
+
+
 
             
 
