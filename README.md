@@ -50,7 +50,7 @@ Calculating support:-
   Number of transactions including both products = 3
   Total no. of transaction                       = 10
   Support for basket                             = 3/10 = 30% (percentage convert)
-- So SUPPORT indicates the frequency of the products being bought together. So in our example of berries and whipped cream 30% of the transaction contain these two items together.
+- So SUPPORT indicates the frequency of the products being bought together. So in our example of berries and whipped cream, 30% of the transaction contains these two items together.
 
 CONFIDENCE Explanation:-
 -- Confidence is the % of transactions that contain the two products together, out of the transaction containing one of the two products.
@@ -82,12 +82,16 @@ NOTE:-  Confidence indicates the direction of the cross-selling.
   Support for whipped Cream = 50%
   LIFT = 30 / (40 * 50) = 1.5
 
-  NOTE: Lift is not calculated in % , calculated in decimal format.
+  NOTE: Lift is not calculated in %, calculated in decimal format.
 
   Summary: --Lift ~1: No important relationship.
           --Lift > 1:Two products bought together.
           --Lift < 1:Two products not bought frequently.
-        
+
+## Dax Formula used in creating new measures and new table From Grocery Table.
+
+![image](https://github.com/user-attachments/assets/6ddf368e-96f3-435c-9a05-2251c4aecc98)
+
             
 
  
