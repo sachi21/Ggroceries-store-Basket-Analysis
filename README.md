@@ -20,17 +20,17 @@
 ---- 2. CONFIDENCE
 ---- 3. LIFT
 
-  [To Understand the above 3 concepts we use 10 data from our sample Groceries Data]
-    1.berries        ||  Whipped Cream
-    2. whole milk     ||  root vegetables
-    3.berries        ||  whipped cream
-    4. whipped cream  ||  onions
-    5. berries        ||  coffee 
-    6. whole milk     ||  whipped cream
-    7.berries        ||  whipped cream
-    8. root vegetables||  onions
-    9. whole milk     ||  root vegetables
-    10. root vegetables|| whole milk
+[To Understand the above 3 concepts we use 10 data from our sample Groceries Data]
+1.berries        ||  Whipped Cream
+2. whole milk     ||  root vegetables
+3.berries        ||  whipped cream
+4. whipped cream  ||  onions
+5. berries        ||  coffee 
+6. whole milk     ||  whipped cream
+7.berries        ||  whipped cream
+8. root vegetables||  onions
+9. whole milk     ||  root vegetables
+10. root vegetables|| whole milk
 
 Sample Data Explanation:- - Sample Grocery store transaction
                           - Consists of 10 transaction
